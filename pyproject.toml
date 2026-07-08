@@ -1,0 +1,16 @@
+[project]
+name = "industrial-spec-parser"
+version = "0.1.0"
+description = "Parser for industrial equipment technical specifications"
+authors = [
+    {name = "Evgeny Kanashevich", email = "kanashevich@aquaecology.group"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
